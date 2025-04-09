@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- idioma -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaSuperPag</title> <!-- Titulo de pag -->
+</head>
+<body>
+    <header> <!-- Cabecera, "panel superior" -->
+        <h1>¡Como fue!</h1>
+        <nav>
+            <a href="#sobremi">Sobre mi</a> <!-- Etiqueta para navegar, tipo link -->
+            <a href="#contacto">Contacto</a> <!-- Etiqueta para navegar -->
+          <!--   <a href="https://google.com" target="_blank">Ir a Google</a> -->
+        </nav>
+    </header>
+    <main> <!-- "centro" de la pag -->
+        <section id="sobremi">
+            <h2>Sobre mi</h2> <!-- etiqueta con estilo de letra -->
+            <p>Me gusta el pan</p> <!-- parrafo -->
+        </section>
+        <article> <!-- etiqueta que se enfonca en un articulo -->
+            <h2>Mi hobby</h2> <!-- Etiqueta -->
+            <p>Uno de mis hobbies es comer mucho pan</p> <!-- Parrafo -->
+        </article>
+        <section id="contacto">
+            <h2>Contáctame</h2>
+            <form action="">
+                <label for="nombre">Nombre:</label> <br> <!-- br es para espacio hacia abajo --> <!-- Etiqueta para el nombre -->
+                <input type="text" name="nombre" id="nombre"> <br> <br> <!-- Campo de texto para el nombre -->
+
+                <label for="correo">Correo</label><br> <!-- Etiqueta para el correo -->
+                <input type="text" name="correo" id="correo"> <br> <br> <!-- Campo de texto para el correo -->
+
+                <label for="mensaje">Mensaje</label><br> <!-- Etiqueta para el mensaje -->
+                <textarea name="mensaje" id="mensaje" rows="4" cols="30"></textarea> <br> <br><!-- Campo de texto para el mensaje -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;2025 Julián Bedoya</p>
+    </footer>
+
+</body>
+</html>
