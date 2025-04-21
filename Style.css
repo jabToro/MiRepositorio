@@ -1,0 +1,61 @@
+/* Estilos para el body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Para cambiar la fuente */
+    background-color: #dddddd;
+    text-align: center; /* Centrar el texto en el body */
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    /* Estilos para el header y footer */
+    background-color: #b29090; /* Color de fondo del header */
+    color: rgb(0, 0, 0); /* Color del texto del header */
+    padding: 10px 0; /* Espaciado interno del header */
+    text-align: center; /* Centrar el texto en el header */
+    border-radius: 10px; /* Bordes redondeados del formulario */
+}
+nav a {
+    /* Estilos para los enlaces de navegación */
+    color: #640404; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    padding: 10px 15px; /* Espaciado interno de los enlaces */
+    
+}
+h1,h2 {
+    /* Estilos para el título principal */
+    font-size: 2.5em; /* Tamaño de fuente del título */
+    margin: 0; /* Sin margen */
+    padding: 20px 0; /* Espaciado interno del título */
+}
+form {
+    /* Estilos para el formulario */
+    background-color: #f0f0f0; /* Color de fondo del formulario */
+    padding: 20px; /* Espaciado interno del formulario */
+    border-radius: 20px; /* Bordes redondeados del formulario */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+    margin-bottom: 10px; /* Margen inferior del formulario */
+}
+input, textarea {
+    /* Estilos para los campos de entrada y textarea */
+    width: 30%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno de los campos */
+    margin: 10px 0; /* Margen entre los campos */
+    border: 2px solid #000000; /* Borde de los campos */
+    border-radius: 5px; /* Bordes redondeados de los campos */
+}
+button {
+    /* Estilos para el botón */
+    background-color: #b29090; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde en el botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+main {
+    /* Estilos para el contenido principal */
+    padding: 20px; /* Espaciado interno del contenido */
+    background-color: #d5d5d5; /* Color de fondo del contenido */
+    border-radius: 10px; /* Bordes redondeados del contenido */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra del contenido */
+}
